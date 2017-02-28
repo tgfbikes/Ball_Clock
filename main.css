@@ -1,0 +1,19 @@
+* {
+	font-family: 'Tahoma', sans-serif;
+}
+
+main {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.time-container {
+	display: flex;
+	justify-content: space-around;
+}
+
+.balls-display {
+	display: flex;
+	justify-content: space-around;
+	width: 500px;
+}
