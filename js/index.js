@@ -51,7 +51,7 @@
 	function updateHourBH (addBall) {
 		if (addBall) {
 			hoursBallHolder.push(1)
-			if (hoursBallHolder.length >= 12) {
+			if (hoursBallHolder.length >= 24) {
 				clearBallHolder(hoursBallHolder, true)
 			}
 		}
